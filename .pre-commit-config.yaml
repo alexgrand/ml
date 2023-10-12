@@ -1,0 +1,28 @@
+repos:
+- repo: local
+  hooks:
+    - id: isort
+      name: Start isort
+      language: python
+      language_version: python3
+      entry: isort
+      args: [ '--profile', 'black', '--filter-files', '-l', '120' ]
+      types: [ python ]
+
+    - id: black
+      name: Run black
+      language: python
+      language_version: python3
+      entry: black
+      args: [ '-C', '-S', '-l', '120' ]
+      types: [ python ]
+      fail_fast: true
+
+    - id: flake8
+      name: Run flake8
+      language: python
+      language_version: python3
+      entry: flake8
+      args: [ "--max-line-length=120", "--ignore=W503,E203,E402,N815" ]
+      types: [ python ]
+      fail_fast: true

@@ -23,7 +23,11 @@ To install development environment please follow next steps:
    ```bash
    conda activate ml-study
    ```
-6. <a href="https://colab.research.google.com/github/alexgrand/ml/blob/main" target="_parent">
+6. Install pre-commit
+   ```bash
+   pre-commit install
+   ```
+7. <a href="https://colab.research.google.com/github/alexgrand/ml/blob/main" target="_parent">
    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </details>
 

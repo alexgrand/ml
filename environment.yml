@@ -1,0 +1,19 @@
+name: ml-study
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - nltk
+  - scikit-learn
+  - pandas
+  - scipy
+  - tensorflow
+  - keras-tuner
+  - tensorflow-datasets
+  - tensorflow-hub
+  - transformers
+  - jupyter

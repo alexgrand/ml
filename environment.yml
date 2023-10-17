@@ -17,3 +17,7 @@ dependencies:
   - tensorflow-hub
   - transformers
   - jupyter
+  - black
+  - isort
+  - flake8
+  - pre-commit
